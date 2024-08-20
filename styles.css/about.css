@@ -1,0 +1,30 @@
+/* ABOUT PAGE */
+
+.about-page {
+    margin: 2.5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-page-content {
+    max-width: 50%;
+}
+
+.about-page-title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    padding-bottom: 5%;
+}
+
+.about-page-paragraph {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-profile-pic {
+    width: auto;
+    height: auto;
+    align-items: center;
+    max-width: 45%;
+}

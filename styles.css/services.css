@@ -1,0 +1,56 @@
+/* SERVICES PAGE */
+
+.services-page {
+    /* padding: 8% 15%; */
+    margin: 2.5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-page-content {
+    width: 800px;
+    /* PROPERPTIES FROM ALURA BOOKS */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-page-title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 20px;
+}
+
+.services-page-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-page-item {
+    color: white;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    /* PROPERPTIES FROM ALURA BOOKS */
+    background: var(--dark-gray);
+    text-align: center;
+    padding: 10px;
+    margin: 12px 8px;
+    flex-basis: calc(33.33% - 16px);
+    box-sizing: border-box;
+}
+
+.services-picture {
+    width: auto;
+    height: auto;
+    align-items: center;
+    
+}
+
+.services-page-item:hover {
+    background-color: var(--black);
+}

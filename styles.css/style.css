@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+:root {
+    --dark-gray: #c1bcb6;
+    --light-gray: #cfcbc6;
+    --white: #ffffff;
+    --orange: #e89551;
+    --black: black;
+
+}
+
+body {
+    /* height: 100vw; */
+    background: var(--white);
+    color: var(--dark-gray);
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

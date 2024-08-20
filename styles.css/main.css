@@ -1,0 +1,76 @@
+/* ABOUT PAGE */
+
+.main-page {
+    margin: 2.5% 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5% 10%; */
+}
+
+.main-page-content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-page-title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    padding-bottom: 5%;
+}
+
+.main-page-paragraph {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-page-img-massage {
+    width: 410px;
+    height: auto;
+    align-items: center;
+    max-width: 45%;
+}
+
+.main-page-button { 
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 40;
+    text-align: center;
+    border: solid var(--dark-gray) 1px;
+    /* margin-top: 20px; */
+    
+}
+
+.main-page-button-learn {
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-page-button-book {
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-page-button:hover {
+    background-color: var(--black);
+    color: black;
+}
+
+.main-page-button-learn:hover {
+    color: white;
+}
+
+.main-page-button-book:hover {
+    color: white;
+}
+
+/* SUGESTÕES DO CHATGPT 16/08/24 */
+

@@ -1,0 +1,47 @@
+.formulario {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--first-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--second-color);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: var(--second-color);
+    color: var(--first-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #333;
+}

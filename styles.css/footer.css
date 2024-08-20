@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--dark-gray);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-title {
+    color: var(--black);
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.footer-links {
+    display: block;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-social-medias {
+    /* background-color: var(--light-gray); */
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-paragraph {
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}

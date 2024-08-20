@@ -1,0 +1,57 @@
+/* MENU HAMBURGUER */
+
+
+
+/* MENU HAMBURGUER */
+
+ /* HEADER */
+.header {
+    background: var(--dark-gray);
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.header-menu {
+    /* justify-content: center;
+    padding: 2px 0px; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin: auto; */
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo {
+    height: 120px;
+    width: 120px;
+}
+
+.header-menu-link, .header-menu-link-book {
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+/* .header-menu-link-book {
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-left: 50%;
+} */
+
+.header-menu-link:hover, .header-menu-link-book:hover {
+    color: var(--black);
+    font-size: 22px;
+}
+
+/* .header-menu-link-book:hover {
+    color: var(--black);
+    font-size: 22px;
+} */
